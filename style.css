@@ -8,6 +8,9 @@ body {
 p {
   text-shadow: 1px 1px yellowgreen;
 }
+#menu{
+  display: inline;
+}
 p:hover {
   color: blue;
   cursor: pointer;
@@ -30,10 +33,18 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-nav a {
+nav li {
+
+list-style-type: none;
+color: blue;
+font-weight: 700;
+margin-right: 30px;
+display:inline-block;
+float: left ;
+
+}
+nav li  a{
   text-decoration: none;
-  color: blue;
-  font-weight: 700;
 }
 #centrerImage {
   text-align: center;
@@ -124,3 +135,4 @@ input[type=text], textarea, input[type=email] {
     margin-right: auto;
     width: 700px;
   }
+  
